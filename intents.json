@@ -1,6 +1,6 @@
 {"intents": [
         {"tag": "greeting",
-         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "patterns": ["Hi there", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
          "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
          "context": [""]
         },
@@ -24,50 +24,70 @@
          "responses": ["I can guide you through Adverse drug reaction list, Blood pressure tracking, Hospitals and Pharmacies", "Offering support for Adverse drug reaction, Blood pressure, Hospitals and Pharmacies"],
          "context": [""]
         },
-        {"tag": "adverse_drug",
-         "patterns": ["How to check Adverse drug reaction?", "Open adverse drugs module", "Give me a list of drugs causing adverse behavior", "List all drugs suitable for patient with adverse reaction", "Which drugs dont have adverse reaction?" ],
-         "responses": ["Navigating to Adverse drug reaction module"],
+        
+        {"tag": "chill",
+         "patterns": ["How are you", "hey whats up", "how are you doing", "whats up"],
+         "responses": ["I am Fine, what about you?", "I am Good, How are you?"],
          "context": [""]
         },
-        {"tag": "blood_pressure",
-         "patterns": ["Open blood pressure module", "Task related to blood pressure", "Blood pressure data entry", "I want to log blood pressure results", "Blood pressure data management" ],
-         "responses": ["Navigating to Blood Pressure module"],
+        {"tag": "facts",
+         "patterns": ["what is your age", "how tall you are", "how old you are"],
+         "responses": ["I am a bot, Dont ask silly questions like this : )", "*_* Dont Troll me"],
          "context": [""]
         },
-        {"tag": "blood_pressure_search",
-         "patterns": ["I want to search for blood pressure result history", "Blood pressure for patient", "Load patient blood pressure result", "Show blood pressure results for patient", "Find blood pressure results by ID" ],
-         "responses": ["Please provide Patient ID", "Patient ID?"],
-         "context": ["search_blood_pressure_by_patient_id"]
-        },
-        {"tag": "search_blood_pressure_by_patient_id",
-         "patterns": [],
-         "responses": ["Loading Blood pressure result for Patient"],
+        {"tag": "identity",
+         "patterns": ["Who are you", "who created you", "what can you do"],
+         "responses": ["I am a ChatBot, you can ask me what every things you want to say/share"],
          "context": [""]
         },
-        {"tag": "pharmacy_search",
-         "patterns": ["Find me a pharmacy", "Find pharmacy", "List of pharmacies nearby", "Locate pharmacy", "Search pharmacy" ],
-         "responses": ["Please provide pharmacy name"],
-         "context": ["search_pharmacy_by_name"]
-        },
-        {"tag": "search_pharmacy_by_name",
-         "patterns": [],
-         "responses": ["Loading pharmacy details"],
+        {"tag": "capital",
+         "patterns": ["what is the capital of"],
+         "responses": ["You can Find Capital of Countries here - https://www.worlddata.info/capital-cities.php"],
          "context": [""]
         },
-        {"tag": "hospital_search",
-         "patterns": ["Lookup for hospital", "Searching for hospital to transfer patient", "I want to search hospital data", "Hospital lookup for patient", "Looking up hospital details" ],
-         "responses": ["Please provide hospital name or location"],
-         "context": ["search_hospital_by_params"]
+        {"tag": "Location",
+         "patterns": ["Where do you stay","where is your home","Where do you live"],
+         "responses": ["I am inside your Computer"],
+         "context": [""]
         },
-        {"tag": "search_hospital_by_params",
-         "patterns": [],
-         "responses": ["Please provide hospital type"],
-         "context": ["search_hospital_by_type"]
+        {"tag": "Joke",
+         "patterns": ["Tell me a Joke"],
+         "responses": ["What is a little bear with no teeth is called?-A gummy bear.","What's an alligator in a vest called?-An investi-gator."],
+         "context": [""]
         },
-        {"tag": "search_hospital_by_type",
-         "patterns": [],
-         "responses": ["Loading hospital details"],
+        {"tag": "other",
+         "patterns": ["What can you do for me","what can you do"],
+         "responses": ["I can tell you a joke, news, browse something, suggest you movies, anything you can ask"],
+         "context": [""]
+        },
+        {"tag": "morning",
+         "patterns": ["Good Morning","GM"],
+         "responses": ["Good Morning :)"],
+         "context": [""]
+        },
+        {"tag": "night",
+         "patterns": ["Good Night","GN"],
+         "responses": ["Good Night, Sweet Dreams :)"],
+         "context": [""]
+        },
+        {"tag": "noon",
+         "patterns": ["Good Afternoon","GA"],
+         "responses": ["Good Afternoon :)"],
+         "context": [""]
+        },
+        {"tag": "maths",
+         "patterns": ["Good Night","GN"],
+         "responses": ["Good Night, Sweet Dreams :)"],
+         "context": [""]
+        },
+        {"tag": "name",
+         "patterns": ["my name is "],
+         "responses": ["Hello , How are you?"],
          "context": [""]
         }
+        
+
+
+
    ]
 }
