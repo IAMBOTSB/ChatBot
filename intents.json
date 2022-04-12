@@ -94,6 +94,11 @@
          "patterns": ["my name is "],
          "responses": ["Hello , How are you?"],
          "context": [""]
+        },
+        {"tag": "navigation",
+         "patterns": ["navigate me to ", "route to ", "how much time needed to travel from"],
+         "responses": ["You can get everthing you want in here - https://www.google.com/maps"],
+         "context": [""]
         }
         
 
