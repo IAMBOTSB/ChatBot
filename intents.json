@@ -86,8 +86,8 @@
          "context": [""]
         },
         {"tag": "maths",
-         "patterns": ["Good Night","GN"],
-         "responses": ["Good Night, Sweet Dreams :)"],
+         "patterns": ["tell me table of ","addition of", "substraction of", "multiplication of", "division of", "+", "-", "*","/"],
+         "responses": ["you can do your all calculations here - https://www.calculator.net/"],
          "context": [""]
         },
         {"tag": "name",
