@@ -10,3 +10,6 @@
   "author": "*********",
   "license": "XDXD"
 }
+
+ "scripts": {
+"start": "node index.js"},
