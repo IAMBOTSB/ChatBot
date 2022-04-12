@@ -1,4 +1,12 @@
 
-"scripts": {
-    "start": "node app.js"
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "hello",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd server && node app.js"
   },
+  "author": "*********",
+  "license": "XDXD"
+}
