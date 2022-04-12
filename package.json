@@ -11,5 +11,5 @@
   "license": "XDXD"
 }
 
- "scripts": {
+ "scripts"{
 "start": "node index.js"},
