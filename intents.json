@@ -21,7 +21,7 @@
         },
         {"tag": "options",
          "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
-         "responses": ["I can guide you through Adverse drug reaction list, Blood pressure tracking, Hospitals and Pharmacies", "Offering support for Adverse drug reaction, Blood pressure, Hospitals and Pharmacies"],
+         "responses": ["I can share my music playlist with you, or i can recommend you some movies", "I can suggest interesting games to play, else i can suggest some books to read"],
          "context": [""]
         },
         
@@ -53,6 +53,11 @@
         {"tag": "Joke",
          "patterns": ["Tell me a Joke"],
          "responses": ["What is a little bear with no teeth is called?-A gummy bear.","What's an alligator in a vest called?-An investi-gator."],
+         "context": [""]
+        },
+        {"tag": "Joke",
+         "patterns": ["Tell me another Joke"],
+         "responses": ["What’s the best thing about Switzerland?-I don’t know, but the flag is a big plus.xD","I invented a new word!-Plagiarism!"],
          "context": [""]
         },
         {"tag": "other",
