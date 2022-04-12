@@ -9,9 +9,7 @@
   },
   "author": "*********",
   "license": "XDXD",
-  "build:ui": "cd ../react-front && npm install && npm run build",
-  "deploy": "git push heroku master",
-  "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && npm run deploy"
+  "start": "node server.js"
    
 }
 
