@@ -55,7 +55,7 @@
          "responses": ["What is a little bear with no teeth is called?-A gummy bear.","What's an alligator in a vest called?-An investi-gator."],
          "context": [""]
         },
-        {"tag": "Joke",
+        {"tag": "AnotherJoke",
          "patterns": ["Tell me another Joke"],
          "responses": ["What’s the best thing about Switzerland?-I don’t know, but the flag is a big plus.xD","I invented a new word!-Plagiarism!"],
          "context": [""]
