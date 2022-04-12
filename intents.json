@@ -95,11 +95,57 @@
          "responses": ["Hello , How are you?"],
          "context": [""]
         },
-        {"tag": "navigation",
-         "patterns": ["navigate me to ", "route to ", "how much time needed to travel from"],
-         "responses": ["You can get everthing you want in here - https://www.google.com/maps"],
+        {"tag": "mobile",
+         "patterns": ["suggest me some smartphones", "recommend some smartphones", "which smartphones", "best smartphones", "top smartphones"],
+         "responses": ["You can buy according to your budget here is one artical which will help you to buy one - https://www.digit.in/top-products/top-10-smartphones-to-buy-in-india-1.html"],
+         "context": [""]
+        },
+        {"tag": "movies",
+         "patterns": ["suggest me some movies", "recommend some movies", "which movies", "best movies", "top movies"],
+         "responses": ["I recommend you to watch 'Murder on the Orient Express', 'Avatar', 'Avengers', 'Harry Potter' this are my favorites if you watched it all you can visit - https://pickamovieforme.com/"],
+         "context": [""]
+        },
+        {"tag": "music",
+         "patterns": ["suggest me some music", "recommend some music", "which music", "best music", "top music"],
+         "responses": ["you can choose your taste here - https://www.gnoosic.com/faves.php"],
+         "context": [""]
+        },
+        {"tag": "birthday",
+         "patterns": ["happy birthday", "hbd", "wish you many many happy returns of the day"],
+         "responses": ["thank you for the wishes but its not my birthday today"],
+         "context": [""]
+        },
+        {"tag": "birth2",
+         "patterns": ["when is your birthday"],
+         "responses": ["i dont know either thats the funny part"],
+         "context": [""]
+        },
+        {"tag": "ownbirthday",
+         "patterns": ["its my birthday today"],
+         "responses": ["wish you many many happy returns of the day", "Happy Birthday May God Bless You"],
+         "context": [""]
+        },
+        {"tag": "love",
+         "patterns": ["do you love me", "i love you"],
+         "responses": ["i love you too", "love you"],
+         "context": [""]
+        },
+        {"tag": "santa",
+         "patterns": ["does santa claus exist"],
+         "responses": ["Its a secret but i am telling you they do exist sshh!"],
+         "context": [""]
+        },
+        {"tag": "people",
+         "patterns": ["do you like people"],
+         "responses": ["Yes, I like chatting with people", "Yes, I love interacting with them"],
+         "context": [""]
+        },
+        {"tag": "hobby",
+         "patterns": ["do you have a hobby", "hobby"],
+         "responses": ["Yes, My Hobby is to Interact with Human Beings"],
          "context": [""]
         }
+
         
 
 
