@@ -3,4 +3,4 @@ Flask==2.0
 nltk==3.6.7
 numpy==1.22.1
 tensorflow-cpu==2.8.0rc1
-keras
+keras==2.8.0rc1
