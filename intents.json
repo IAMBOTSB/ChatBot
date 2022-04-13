@@ -57,12 +57,12 @@
         },
         {"tag": "Joke",
          "patterns": ["Tell me a Joke"],
-         "responses": ["What is a little bear with no teeth is called?-A gummy bear.","What's an alligator in a vest called?-An investi-gator."],
+         "responses": ["What is a little bear with no teeth is called?-A gummy bear.","Whats an alligator in a vest called? - An investi-gator."],
          "context": [""]
         },
         {"tag": "AnotherJoke",
          "patterns": ["Tell me another Joke"],
-         "responses": ["What’s the best thing about Switzerland?-I don’t know, but the flag is a big plus.xD","I invented a new word!-Plagiarism!"],
+         "responses": ["What's the best thing about Switzerland? - I don't know, but the flag is a big plus.xD","I invented a new word! - Plagiarism!"],
          "context": [""]
         },
         {"tag": "other",
@@ -144,7 +144,43 @@
          "patterns": ["do you have a hobby", "hobby"],
          "responses": ["Yes, My Hobby is to Interact with Human Beings"],
          "context": [""]
+        },
+        {"tag": "Valorant",
+         "patterns": ["best valorant player", "best valo player", "valo player"],
+         "responses": ["According to a survey 'Tenz' aka 'Tyson Ngo' is the best Valorant player"],
+         "context": [""]
+        },
+        {"tag": "Games",
+         "patterns": ["csgo vs valorant", "what is best csgo or valorant", "csgo vs valo", "what is best csgo or valo", "what game should i play csgo or valorant"],
+         "responses": ["Both are equally good you can play any its all about personal preference"],
+         "context": [""]
+        },
+        {"tag": "smart",
+         "patterns": ["do you get smarter with time", "are you smart"],
+         "responses": ["Yes i am smart and i get smarter with as you get"],
+         "context": [""]
+        },
+        {"tag": "boss",
+         "patterns": ["whos your boss", "whos your master"],
+         "responses": ["A group of nerds maintains me, so they are my masters"],
+         "context": [""]
+        },
+        {"tag": "sell",
+         "patterns": ["are you expensive", "can i buy you"],
+         "responses": ["I am not for sell"],
+         "context": [""]
+        },
+        {"tag": "weather",
+         "patterns": ["weather today", "weather"],
+         "responses": ["https://www.weatheronline.in/ - you can check weather forecast here as i cannot access your location"],
+         "context": [""]
+        },
+        {"tag": "lang",
+         "patterns": ["what languages you speak", "languages"],
+         "responses": ["currently i only speak english"],
+         "context": [""]
         }
+
 
         
 
