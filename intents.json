@@ -182,7 +182,7 @@
         },
         {"tag": "ecommerce",
          "patterns": ["electronics", "shopping", "furniture", "food", "clothes", "buy"],
-         "responses": ["Here is the list of shops from where you can buy things - Flipkart,Amazon,Ebay,Zomato],
+         "responses": ["Here is the list of shops from where you can buy things - Flipkart,Amazon,Ebay,Zomato"],
          "context": [""]
         },
         {"tag": "marrage",
