@@ -179,7 +179,47 @@
          "patterns": ["what languages you speak", "languages"],
          "responses": ["currently i only speak english"],
          "context": [""]
-        }
+        },
+        {"tag": "ecommerce",
+         "patterns": ["electronics", "shopping", "furniture", "food", "clothes", "buy"],
+         "responses": ["Here is the list of shops from where you can buy things - Flipkart,Amazon,Ebay,Zomato],
+         "context": [""]
+        },
+        {"tag": "marrage",
+         "patterns": ["will you marry me", "are you married"],
+         "responses": ["I am a bot i am not married and i cannot marry anyone"],
+         "context": [""]
+        },
+        {"tag": "question",
+         "patterns": ["i have a question can you help me", "i have a question", "i need your help"],
+         "responses": ["Yes! Tell me i will try my best to help you"],
+         "context": [""],
+         },
+        {"tag": "purpose",
+         "patterns": ["what is your purpose", "purpose"],
+         "responses": ["My purpose is to guide you through things i you can share ir ask things with me"],
+         "context": [""]
+         },
+        {"tag": "cute",
+         "patterns": ["you are cute", "you are handsome", "you are smart", "you sre so kind"],
+         "responses": ["Thanks, I appreciate :)"],
+         "context": [""]
+         },
+        {"tag": "pizza",
+         "patterns": ["do you like pizza", "what is your favourite food", "best thing to eat"],
+         "responses": ["I love pizza🍕, best thing to eat anytime"],
+         "context": [""]
+         },
+        {"tag": "religion",
+         "patterns": ["what is your religion", "do you follow any religion", "which religion you prefer"],
+         "responses": ["i do not follow any religion all religions are equal for me"],
+         "context" : [""]
+         },
+        {"tag": "annoying",
+         "patterns": ["you are so annoying","you suck","you are bad","you are boring", "you are crazy"],
+         "responses": ["Sorry for that"],
+         "context" : [""]
+         }
 
 
         
