@@ -21,7 +21,7 @@ intents = json.loads(data_file)
 for intent in intents['intents']:
     for pattern in intent['patterns']:
 
-        #tokenize
+        #TOKENIZE
 
         w = nltk.word_tokenize(pattern)
         words.extend(w)
@@ -32,7 +32,7 @@ for intent in intents['intents']:
         if intent['tag'] not in classes:
             classes.append(intent['tag'])
 
-# lemmaztize and lower each word and remove duplicates
+# LEMMATIZATION
 
 words = [lemmatizer.lemmatize(w.lower()) for w in words if w not in ignore_words]
 words = sorted(list(set(words)))
@@ -40,7 +40,7 @@ words = sorted(list(set(words)))
 # sort classes
 classes = sorted(list(set(classes)))
 
-# documents = combination between patterns and intents
+# PRINTING COMBO PATTERNS, RESPONSES
 print (len(documents), "documents")
 
 
@@ -53,13 +53,13 @@ print (len(words), "unique lemmatized words", words)
 pickle.dump(words,open('texts.pkl','wb'))
 pickle.dump(classes,open('labels.pkl','wb'))
 
-# create our training data
+# TRAINING DATA
 training = []
 
-# create an empty array for our output
+# EMPTY ARRAY
 output_empty = [0] * len(classes)
 
-# training set, bag of words for each sentence
+# LEMMATIZATION
 for doc in documents:
     
     bag = []
@@ -85,8 +85,7 @@ train_y = list(training[:,1])
 print("Data Trained")
 
 
-# Create model - 3 layers. First layer 128 neurons, second layer 64 neurons and 3rd output layer contains number of neurons
-# equal to number of intents to predict output intent with softmax
+# MODEL CREATION
 model = Sequential()
 model.add(Dense(128, input_shape=(len(train_x[0]),), activation='relu'))
 model.add(Dropout(0.5))
@@ -94,7 +93,7 @@ model.add(Dense(64, activation='relu'))
 model.add(Dropout(0.5))
 model.add(Dense(len(train_y[0]), activation='softmax'))
 
-# Compile model. Stochastic gradient descent with Nesterov accelerated gradient gives good results for this model
+# SGD OPTIMIZER
 sgd = tf.keras.optimizers.SGD(lr=0.01, decay=1e-6, momentum=0.9, nesterov=True)
 model.compile(loss='categorical_crossentropy', metrics=['accuracy'])
 
