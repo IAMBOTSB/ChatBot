@@ -1,7 +1,7 @@
 {"intents": [
         {"tag": "greeting",
          "patterns": ["Hi there", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
-         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
          "context": [""]
         },
         {"tag": "goodbye",
@@ -31,7 +31,7 @@
         },
         
         {"tag": "chill",
-         "patterns": ["How are you", "hey whats up", "how are you doing", "whats up"],
+         "patterns": ["How are you", "hey whats up", "how are you doing", "whats up","wass up","whatup","whatsssup","whatsup","whatssup"],
          "responses": ["I am Fine, what about you?", "I am Good, How are you?"],
          "context": [""]
         },
@@ -86,7 +86,7 @@
          "context": [""]
         },
         {"tag": "maths",
-         "patterns": ["tell me table of ","addition of", "substraction of", "multiplication of", "division of", "+", "-", "*","/"],
+         "patterns": ["tell me table of ","addition of", "substraction of", "multiplication of","calculate", "division of", "+-*/"],
          "responses": ["you can do your all calculations here - https://www.calculator.net/"],
          "context": [""]
         },
@@ -161,7 +161,7 @@
          "context": [""]
         },
         {"tag": "boss",
-         "patterns": ["whos your boss", "whos your master"],
+         "patterns": ["whos your boss", "whos your master","who made you"],
          "responses": ["A group of nerds maintains me, so they are my masters"],
          "context": [""]
         },
@@ -181,8 +181,8 @@
          "context": [""]
         },
         {"tag": "ecommerce",
-         "patterns": ["electronics", "shopping", "furniture", "food", "clothes", "buy"],
-         "responses": ["Here is the list of shops from where you can buy things - Flipkart,Amazon,Ebay,Zomato"],
+         "patterns": ["electronics", "shopping", "furniture", "food", "clothes", "buy","can you buy me a"],
+         "responses": ["Here is the list of shops from where you can buy things(ofc you have to pay for things you want) - Flipkart,Amazon,Ebay,Zomato"],
          "context": [""]
         },
         {"tag": "marrage",
@@ -224,7 +224,61 @@
          "patterns": ["okay","ok","k"],
          "responses": ["Yeah"],
          "context" : [""]
+        },
+        {"tag": "cool",
+         "patterns": ["cool","awesome","great","nice","wonderful","beautiful"],
+         "responses": ["Glad You like it", "Yeahhhh", ": )"],
+         "context" : [""]
+        },
+        {"tag": "botname",
+         "patterns": ["what is your name"],
+         "responses": ["My name is "],
+         "context": [""]
+        },
+        {"tag": "bro",
+         "patterns": ["bro","bruh","brooooooooooooo"],
+         "responses": ["Yes Bro"],
+         "context" : [""]
+        },
+        {"tag": "boi",
+         "patterns": ["boiii","boi","hey boi"],
+         "responses": ["Hello Boi","What's Up Boi :)"],
+         "context": [""]
+        },
+        {"tag": "cook",
+         "patterns": ["can you cook","can you make food"],
+         "responses": ["No, but i can tell you where you can find recips to cook your food - https://www.allrecipes.com/"],
+         "context": [""]
+        },
+        {"tag": "whatsapp",
+         "patterns": ["whatsapp","instagram","snapchat","youtube","twitter","twitch","telegram"],
+         "responses": ["I dont use any of this social apps i would like to stay away from this controversial world"],
+         "context": [""]
+        },
+        {"tag": "youtubers",
+         "patterns": ["top youtubers","do you know any top youtubers"],
+         "responses": ["here is a link which might help you https://english.jagran.com/trending/from-bhuvan-bam-to-carryminati-top-5-richest-youtubers-in-india-10041160"],
+         "context": [""]
+        },
+        {"tag": "sadasdasdp",
+         "patterns": ["asddgdfsg","wretrtytyu","zzzzzzzzzzdgwer","rwehtrrtye","jytkrytry","yrteyejy","fdghdtry"],
+         "responses": ["Sorry cannot understand you"],
+         "context": [""]
+        },
+        {"tag": "nlp",
+         "patterns": ["what is nlp","what is natural language processing"],
+         "responses": ["Natural language processing strives to build machines that understand and respond to text or voice data—and respond with text or speech of their own—in much the same way humans do. for more you can visit wikipedia"],
+         "context": [""]
+        },
+        {"tag": "canyou",
+         "patterns": ["can you tell","can you"],
+         "responses": ["Sorry i cannot"],
+         "context": [""]
         }
+
+
+
+
 
 
    ]        

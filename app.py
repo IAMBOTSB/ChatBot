@@ -52,12 +52,13 @@ def getResponse(ints, intents_json):
         if(i['tag']== tag):
             result = random.choice(i['responses'])
             break
-    return result
+    return result   
 
 def chatbot_response(msg):
     ints = predict_class(msg, model)
     res = getResponse(ints, intents)
     return res
+
 
 
 from flask import Flask, render_template, request
